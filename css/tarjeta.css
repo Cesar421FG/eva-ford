@@ -1,0 +1,24 @@
+*, *::before , *::after{
+    box-sizing:border-box !important;
+  }
+  
+  .card{
+    width:500px !important;
+    position:relative !important;
+  }
+  
+  .card-img{
+    width: 100% !important ;
+    display:block !important;
+  }
+  
+  .card-title{
+    position:absolute !important;
+    bottom: 0 !important;
+    background-color: rgba(0,0,0,.70) !important;
+    color: #fff !important;
+    width:100% !important;
+    margin:0 !important;
+    padding:1em !important;
+    text-align:center !important;
+  }
