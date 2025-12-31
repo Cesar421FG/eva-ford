@@ -1,0 +1,26 @@
+@import url(/fonts/icomoon/style.css);
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+#menua a  {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+@media (max-width:768px){
+    #intro{
+        width: 90px !important;
+    }
+}
